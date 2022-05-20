@@ -11,7 +11,7 @@
      user.name=username
      user.email=username@email.com
      -  创建rsa 公钥
-     ssh-keygen -t rsa -C 'demoinaction@outlook.com'    
+     ssh-keygen -t rsa -C 'username@email.com'    
      Generating public/private rsa key pair.  
     Enter file in which to save the key (/c/Users/demo/.ssh/  id_rsa): rsa 
     Enter passphrase (empty for no passphrase):  
@@ -20,7 +20,7 @@
     Your public key has been saved in demo.pub  
     The key fingerprint is:  
     SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    demoinaction@outlook.com  
+    username@email.com  
     The key's randomart image is:  
     +---[RSA 3072]----+  
     |      .....xxxxxx|  
