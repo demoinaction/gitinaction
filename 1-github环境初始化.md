@@ -38,7 +38,7 @@
      -  启动ssh-agent  
      ssh-agent bash
      -  将私钥添加到ssh agent管理  
-     ssh-agent add rsa  
+     ssh-add rsa  
      - 登录github, 进入SSH Key设置页面  
      https://github.com/settings/keys    
     点击new SSH key, 输入名字，将rsa.pub 公钥拷贝到key输入框  保存         
